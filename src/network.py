@@ -44,13 +44,13 @@ class NeuralNetwork:
         output_size = 10
 
         #He초기화 사용
-        self.params["W1"] = np.random.randn(input_size, hidden_size1) * np.sqrt(1.0 / input_size)
+        self.params["W1"] = np.random.randn(input_size, hidden_size1) * np.sqrt(2.0 / input_size)
         self.params["b1"] = np.zeros(hidden_size1)
 
-        self.params["W2"] = np.random.randn(hidden_size1, hidden_size2) * np.sqrt(1.0 / hidden_size1)
+        self.params["W2"] = np.random.randn(hidden_size1, hidden_size2) * np.sqrt(2.0 / hidden_size1)
         self.params["b2"] = np.zeros(hidden_size2)
 
-        self.params["W3"] = np.random.randn(hidden_size2, output_size) * np.sqrt(1.0 / hidden_size2)
+        self.params["W3"] = np.random.randn(hidden_size2, output_size) * np.sqrt(2.0 / hidden_size2)
         self.params["b3"] = np.zeros(output_size)
 
         self.layers["Affine1"] = Affine(self.params["W1"], self.params["b1"])
