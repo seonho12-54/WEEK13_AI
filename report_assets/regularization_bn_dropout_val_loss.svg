@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" role="img">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.title{font-size:20px;font-weight:700}
+.label{font-size:12px;fill:#4b5563}
+.small{font-size:11px;fill:#6b7280}
+.axis{stroke:#374151;stroke-width:1.2}
+.grid{stroke:#e5e7eb;stroke-width:1}
+</style>
+<text x="82" y="30" class="title">BatchNorm and Dropout - validation loss</text>
+<line x1="82" y1="337" x2="732" y2="337" class="axis"/>
+<line x1="82" y1="62" x2="82" y2="337" class="axis"/>
+<line x1="82" y1="337.0" x2="732" y2="337.0" class="grid"/>
+<text x="74" y="341.0" text-anchor="end" class="small">0.04</text>
+<line x1="82" y1="268.2" x2="732" y2="268.2" class="grid"/>
+<text x="74" y="272.2" text-anchor="end" class="small">0.07</text>
+<line x1="82" y1="199.5" x2="732" y2="199.5" class="grid"/>
+<text x="74" y="203.5" text-anchor="end" class="small">0.10</text>
+<line x1="82" y1="130.7" x2="732" y2="130.7" class="grid"/>
+<text x="74" y="134.7" text-anchor="end" class="small">0.14</text>
+<line x1="82" y1="62.0" x2="732" y2="62.0" class="grid"/>
+<text x="74" y="66.0" text-anchor="end" class="small">0.17</text>
+<text x="82.0" y="359" text-anchor="middle" class="small">1</text>
+<text x="218.8" y="359" text-anchor="middle" class="small">5</text>
+<text x="389.9" y="359" text-anchor="middle" class="small">10</text>
+<text x="560.9" y="359" text-anchor="middle" class="small">15</text>
+<text x="732.0" y="359" text-anchor="middle" class="small">20</text>
+<text x="407.0" y="385" text-anchor="middle" class="label">epoch</text>
+<text x="28" y="199.5" transform="rotate(-90 28 199.5)" text-anchor="middle" class="label">validation loss</text>
+<polyline points="82.0,121.7 116.2,205.1 150.4,239.1 184.6,262.6 218.8,279.2 253.1,278.7 287.3,289.6 321.5,286.9 355.7,293.0 389.9,297.5 424.1,301.1 458.3,295.1 492.5,300.8 526.7,299.9 560.9,304.9 595.2,298.4 629.4,303.5 663.6,307.1 697.8,299.6 732.0,310.4" fill="none" stroke="#2563eb" stroke-width="2.4"/>
+<circle cx="82.0" cy="121.7" r="3" fill="#2563eb"/>
+<circle cx="218.8" cy="279.2" r="3" fill="#2563eb"/>
+<circle cx="355.7" cy="293.0" r="3" fill="#2563eb"/>
+<circle cx="492.5" cy="300.8" r="3" fill="#2563eb"/>
+<circle cx="629.4" cy="303.5" r="3" fill="#2563eb"/>
+<polyline points="82.0,88.6 116.2,183.7 150.4,223.7 184.6,250.1 218.8,256.7 253.1,282.0 287.3,279.1 321.5,277.7 355.7,283.8 389.9,289.0 424.1,287.6 458.3,291.0 492.5,291.6 526.7,302.4 560.9,294.9 595.2,301.0 629.4,286.8 663.6,290.9 697.8,294.1 732.0,295.5" fill="none" stroke="#16a34a" stroke-width="2.4"/>
+<circle cx="82.0" cy="88.6" r="3" fill="#16a34a"/>
+<circle cx="218.8" cy="256.7" r="3" fill="#16a34a"/>
+<circle cx="355.7" cy="283.8" r="3" fill="#16a34a"/>
+<circle cx="492.5" cy="291.6" r="3" fill="#16a34a"/>
+<circle cx="629.4" cy="286.8" r="3" fill="#16a34a"/>
+<polyline points="82.0,220.0 116.2,258.0 150.4,266.3 184.6,269.0 218.8,268.7 253.1,282.5 287.3,268.9 321.5,280.4 355.7,260.6 389.9,258.3 424.1,259.4 458.3,274.7 492.5,246.3 526.7,268.5 560.9,274.0 595.2,276.4 629.4,261.9 663.6,258.4 697.8,251.5 732.0,254.6" fill="none" stroke="#9333ea" stroke-width="2.4"/>
+<circle cx="82.0" cy="220.0" r="3" fill="#9333ea"/>
+<circle cx="218.8" cy="268.7" r="3" fill="#9333ea"/>
+<circle cx="355.7" cy="260.6" r="3" fill="#9333ea"/>
+<circle cx="492.5" cy="246.3" r="3" fill="#9333ea"/>
+<circle cx="629.4" cy="261.9" r="3" fill="#9333ea"/>
+<line x1="760" y1="86" x2="784" y2="86" stroke="#2563eb" stroke-width="3"/>
+<text x="792" y="90" class="small">adam_baseline</text>
+<line x1="760" y1="114" x2="784" y2="114" stroke="#16a34a" stroke-width="3"/>
+<text x="792" y="118" class="small">no_batchnorm</text>
+<line x1="760" y1="142" x2="784" y2="142" stroke="#9333ea" stroke-width="3"/>
+<text x="792" y="146" class="small">no_dropout</text>
+</svg>

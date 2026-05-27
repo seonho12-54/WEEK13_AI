@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="440" viewBox="0 0 1040 440" role="img">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.title{font-size:20px;font-weight:700}
+.label{font-size:12px;fill:#4b5563}
+.small{font-size:11px;fill:#6b7280}
+.axis{stroke:#374151;stroke-width:1.2}
+.grid{stroke:#e5e7eb;stroke-width:1}
+</style>
+<text x="78" y="34" class="title">Train vs validation accuracy - gap context</text>
+<text x="78" y="56" class="small">A larger gap is only risky when validation accuracy stalls or validation loss worsens.</text>
+<line x1="760" y1="38" x2="788" y2="38" stroke="#6b7280" stroke-width="2.2" stroke-dasharray="5 4"/>
+<text x="796" y="42" class="small">train accuracy</text>
+<line x1="760" y1="60" x2="788" y2="60" stroke="#111827" stroke-width="2.4"/>
+<text x="796" y="64" class="small">validation accuracy</text>
+<text x="78" y="74" class="label">Adam baseline</text>
+<rect x="78" y="92" width="245" height="230" fill="#ffffff" stroke="#d1d5db"/>
+<line x1="78" y1="322.0" x2="323" y2="322.0" class="grid"/>
+<text x="70" y="326.0" text-anchor="end" class="small">95</text>
+<line x1="78" y1="276.0" x2="323" y2="276.0" class="grid"/>
+<text x="70" y="280.0" text-anchor="end" class="small">96</text>
+<line x1="78" y1="230.0" x2="323" y2="230.0" class="grid"/>
+<text x="70" y="234.0" text-anchor="end" class="small">97</text>
+<line x1="78" y1="184.0" x2="323" y2="184.0" class="grid"/>
+<text x="70" y="188.0" text-anchor="end" class="small">98</text>
+<line x1="78" y1="138.0" x2="323" y2="138.0" class="grid"/>
+<text x="70" y="142.0" text-anchor="end" class="small">99</text>
+<line x1="78" y1="92.0" x2="323" y2="92.0" class="grid"/>
+<text x="70" y="96.0" text-anchor="end" class="small">100</text>
+<text x="78.0" y="342" text-anchor="middle" class="small">1</text>
+<text x="194.1" y="342" text-anchor="middle" class="small">10</text>
+<text x="323.0" y="342" text-anchor="middle" class="small">20</text>
+<polygon points="78.0,284.7 90.9,211.1 103.8,180.3 116.7,164.7 129.6,150.9 142.5,144.4 155.4,140.3 168.3,128.3 181.2,121.4 194.1,114.5 206.9,111.3 219.8,119.6 232.7,111.8 245.6,111.3 258.5,109.0 271.4,106.7 284.3,99.4 297.2,102.1 310.1,102.6 323.0,97.5 323.0,161.0 310.1,161.5 297.2,166.1 284.3,164.2 271.4,171.1 258.5,168.4 245.6,166.5 232.7,169.7 219.8,169.3 206.9,169.3 194.1,174.3 181.2,176.2 168.3,179.4 155.4,181.7 142.5,187.2 129.6,193.2 116.7,194.1 103.8,212.1 90.9,240.1 78.0,289.3" fill="#2563eb" opacity="0.12"/>
+<polyline points="78.0,284.7 90.9,211.1 103.8,180.3 116.7,164.7 129.6,150.9 142.5,144.4 155.4,140.3 168.3,128.3 181.2,121.4 194.1,114.5 206.9,111.3 219.8,119.6 232.7,111.8 245.6,111.3 258.5,109.0 271.4,106.7 284.3,99.4 297.2,102.1 310.1,102.6 323.0,97.5" fill="none" stroke="#6b7280" stroke-width="2.2" stroke-dasharray="5 4"/>
+<polyline points="78.0,289.3 90.9,240.1 103.8,212.1 116.7,194.1 129.6,193.2 142.5,187.2 155.4,181.7 168.3,179.4 181.2,176.2 194.1,174.3 206.9,169.3 219.8,169.3 232.7,169.7 245.6,166.5 258.5,168.4 271.4,171.1 284.3,164.2 297.2,166.1 310.1,161.5 323.0,161.0" fill="none" stroke="#2563eb" stroke-width="2.6"/>
+<text x="78" y="370" class="small">final val 98.50%</text>
+<text x="206" y="370" class="small">gap 1.38%p</text>
+<text x="393" y="74" class="label">No BatchNorm</text>
+<rect x="393" y="92" width="245" height="230" fill="#ffffff" stroke="#d1d5db"/>
+<line x1="393" y1="322.0" x2="638" y2="322.0" class="grid"/>
+<line x1="393" y1="276.0" x2="638" y2="276.0" class="grid"/>
+<line x1="393" y1="230.0" x2="638" y2="230.0" class="grid"/>
+<line x1="393" y1="184.0" x2="638" y2="184.0" class="grid"/>
+<line x1="393" y1="138.0" x2="638" y2="138.0" class="grid"/>
+<line x1="393" y1="92.0" x2="638" y2="92.0" class="grid"/>
+<text x="393.0" y="342" text-anchor="middle" class="small">1</text>
+<text x="509.1" y="342" text-anchor="middle" class="small">10</text>
+<text x="638.0" y="342" text-anchor="middle" class="small">20</text>
+<polygon points="393.0,316.9 405.9,234.6 418.8,196.4 431.7,179.4 444.6,159.2 457.5,142.6 470.4,133.4 483.3,128.8 496.2,126.0 509.1,125.1 521.9,121.9 534.8,112.2 547.7,110.4 560.6,105.3 573.5,106.3 586.4,108.1 599.3,107.2 612.2,106.7 625.1,103.0 638.0,102.1 638.0,163.3 625.1,162.8 612.2,166.5 599.3,169.7 586.4,163.8 573.5,164.2 560.6,160.1 547.7,165.6 534.8,171.1 521.9,171.1 509.1,173.9 496.2,173.4 483.3,185.8 470.4,183.1 457.5,180.8 444.6,200.6 431.7,209.3 418.8,219.9 405.9,246.1 393.0,315.1" fill="#16a34a" opacity="0.12"/>
+<polyline points="393.0,316.9 405.9,234.6 418.8,196.4 431.7,179.4 444.6,159.2 457.5,142.6 470.4,133.4 483.3,128.8 496.2,126.0 509.1,125.1 521.9,121.9 534.8,112.2 547.7,110.4 560.6,105.3 573.5,106.3 586.4,108.1 599.3,107.2 612.2,106.7 625.1,103.0 638.0,102.1" fill="none" stroke="#6b7280" stroke-width="2.2" stroke-dasharray="5 4"/>
+<polyline points="393.0,315.1 405.9,246.1 418.8,219.9 431.7,209.3 444.6,200.6 457.5,180.8 470.4,183.1 483.3,185.8 496.2,173.4 509.1,173.9 521.9,171.1 534.8,171.1 547.7,165.6 560.6,160.1 573.5,164.2 586.4,163.8 599.3,169.7 612.2,166.5 625.1,162.8 638.0,163.3" fill="none" stroke="#16a34a" stroke-width="2.6"/>
+<text x="393" y="370" class="small">final val 98.45%</text>
+<text x="521" y="370" class="small">gap 1.33%p</text>
+<text x="708" y="74" class="label">No Dropout</text>
+<rect x="708" y="92" width="245" height="230" fill="#ffffff" stroke="#d1d5db"/>
+<line x1="708" y1="322.0" x2="953" y2="322.0" class="grid"/>
+<line x1="708" y1="276.0" x2="953" y2="276.0" class="grid"/>
+<line x1="708" y1="230.0" x2="953" y2="230.0" class="grid"/>
+<line x1="708" y1="184.0" x2="953" y2="184.0" class="grid"/>
+<line x1="708" y1="138.0" x2="953" y2="138.0" class="grid"/>
+<line x1="708" y1="92.0" x2="953" y2="92.0" class="grid"/>
+<text x="708.0" y="342" text-anchor="middle" class="small">1</text>
+<text x="824.1" y="342" text-anchor="middle" class="small">10</text>
+<text x="953.0" y="342" text-anchor="middle" class="small">20</text>
+<polygon points="708.0,177.1 720.9,132.5 733.8,115.0 746.7,119.1 759.6,106.3 772.5,103.0 785.4,109.9 798.3,102.6 811.2,106.7 824.1,104.0 836.9,101.2 849.8,98.4 862.7,99.8 875.6,97.1 888.5,96.6 901.4,95.2 914.3,98.4 927.2,95.7 940.1,96.1 953.0,97.5 953.0,176.2 940.1,178.0 927.2,174.3 914.3,174.8 901.4,167.4 888.5,170.2 875.6,174.8 862.7,183.5 849.8,175.7 836.9,190.0 824.1,187.7 811.2,185.4 798.3,177.6 785.4,187.2 772.5,179.9 759.6,190.4 746.7,194.6 733.8,194.6 720.9,200.6 708.0,232.3" fill="#9333ea" opacity="0.12"/>
+<polyline points="708.0,177.1 720.9,132.5 733.8,115.0 746.7,119.1 759.6,106.3 772.5,103.0 785.4,109.9 798.3,102.6 811.2,106.7 824.1,104.0 836.9,101.2 849.8,98.4 862.7,99.8 875.6,97.1 888.5,96.6 901.4,95.2 914.3,98.4 927.2,95.7 940.1,96.1 953.0,97.5" fill="none" stroke="#6b7280" stroke-width="2.2" stroke-dasharray="5 4"/>
+<polyline points="708.0,232.3 720.9,200.6 733.8,194.6 746.7,194.6 759.6,190.4 772.5,179.9 785.4,187.2 798.3,177.6 811.2,185.4 824.1,187.7 836.9,190.0 849.8,175.7 862.7,183.5 875.6,174.8 888.5,170.2 901.4,167.4 914.3,174.8 927.2,174.3 940.1,178.0 953.0,176.2" fill="none" stroke="#9333ea" stroke-width="2.6"/>
+<text x="708" y="370" class="small">final val 98.17%</text>
+<text x="836" y="370" class="small">gap 1.71%p</text>
+<text x="515.5" y="418" text-anchor="middle" class="label">epoch</text>
+<text x="24" y="207.0" transform="rotate(-90 24 207.0)" text-anchor="middle" class="label">accuracy (%)</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430" viewBox="0 0 860 430" role="img">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.title{font-size:20px;font-weight:700}
+.label{font-size:12px;fill:#4b5563}
+.small{font-size:11px;fill:#6b7280}
+.axis{stroke:#374151;stroke-width:1.2}
+.grid{stroke:#e5e7eb;stroke-width:1}
+</style>
+<text x="88" y="34" class="title">BatchNorm and Dropout - final gap</text>
+<line x1="88" y1="340" x2="768" y2="340" class="axis"/>
+<line x1="88" y1="70" x2="88" y2="340" class="axis"/>
+<line x1="88" y1="340.0" x2="768" y2="340.0" class="grid"/>
+<text x="78" y="344.0" text-anchor="end" class="small">0.0</text>
+<line x1="88" y1="273.1" x2="768" y2="273.1" class="grid"/>
+<text x="78" y="277.1" text-anchor="end" class="small">0.5</text>
+<line x1="88" y1="206.2" x2="768" y2="206.2" class="grid"/>
+<text x="78" y="210.2" text-anchor="end" class="small">1.0</text>
+<line x1="88" y1="139.3" x2="768" y2="139.3" class="grid"/>
+<text x="78" y="143.3" text-anchor="end" class="small">1.5</text>
+<line x1="88" y1="72.4" x2="768" y2="72.4" class="grid"/>
+<text x="78" y="76.4" text-anchor="end" class="small">2.0</text>
+<text x="30" y="205.0" transform="rotate(-90 30 205.0)" text-anchor="middle" class="label">train - validation accuracy gap (%p)</text>
+<rect x="165.3" y="155.3" width="72" height="184.7" fill="#2563eb" rx="4"/>
+<text x="201.3" y="145.3" text-anchor="middle" class="small">1.38%p</text>
+<text x="201.3" y="368" text-anchor="middle" class="label">Adam baseline</text>
+<rect x="392.0" y="162.0" width="72" height="178.0" fill="#16a34a" rx="4"/>
+<text x="428.0" y="152.0" text-anchor="middle" class="small">1.33%p</text>
+<text x="428.0" y="368" text-anchor="middle" class="label">No BatchNorm</text>
+<rect x="618.7" y="111.2" width="72" height="228.8" fill="#9333ea" rx="4"/>
+<text x="654.7" y="101.2" text-anchor="middle" class="small">1.71%p</text>
+<text x="654.7" y="368" text-anchor="middle" class="label">No Dropout</text>
+</svg>

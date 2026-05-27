@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" role="img">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.title{font-size:20px;font-weight:700}
+.label{font-size:12px;fill:#4b5563}
+.small{font-size:11px;fill:#6b7280}
+.axis{stroke:#374151;stroke-width:1.2}
+.grid{stroke:#e5e7eb;stroke-width:1}
+</style>
+<text x="82" y="30" class="title">Learning rate comparison - validation loss</text>
+<line x1="82" y1="337" x2="732" y2="337" class="axis"/>
+<line x1="82" y1="62" x2="82" y2="337" class="axis"/>
+<line x1="82" y1="337.0" x2="732" y2="337.0" class="grid"/>
+<text x="74" y="341.0" text-anchor="end" class="small">0.04</text>
+<line x1="82" y1="268.2" x2="732" y2="268.2" class="grid"/>
+<text x="74" y="272.2" text-anchor="end" class="small">0.07</text>
+<line x1="82" y1="199.5" x2="732" y2="199.5" class="grid"/>
+<text x="74" y="203.5" text-anchor="end" class="small">0.10</text>
+<line x1="82" y1="130.8" x2="732" y2="130.8" class="grid"/>
+<text x="74" y="134.8" text-anchor="end" class="small">0.12</text>
+<line x1="82" y1="62.0" x2="732" y2="62.0" class="grid"/>
+<text x="74" y="66.0" text-anchor="end" class="small">0.15</text>
+<text x="82.0" y="359" text-anchor="middle" class="small">1</text>
+<text x="218.8" y="359" text-anchor="middle" class="small">5</text>
+<text x="389.9" y="359" text-anchor="middle" class="small">10</text>
+<text x="560.9" y="359" text-anchor="middle" class="small">15</text>
+<text x="732.0" y="359" text-anchor="middle" class="small">20</text>
+<text x="407.0" y="385" text-anchor="middle" class="label">epoch</text>
+<text x="28" y="199.5" transform="rotate(-90 28 199.5)" text-anchor="middle" class="label">validation loss</text>
+<polyline points="82.0,88.6 116.2,186.7 150.4,226.5 184.6,254.3 218.8,273.7 253.1,273.2 287.3,285.9 321.5,282.8 355.7,289.9 389.9,295.2 424.1,299.4 458.3,292.4 492.5,299.1 526.7,298.0 560.9,304.0 595.2,296.3 629.4,302.2 663.6,306.5 697.8,297.7 732.0,310.4" fill="none" stroke="#2563eb" stroke-width="2.4"/>
+<circle cx="82.0" cy="88.6" r="3" fill="#2563eb"/>
+<circle cx="218.8" cy="273.7" r="3" fill="#2563eb"/>
+<circle cx="355.7" cy="289.9" r="3" fill="#2563eb"/>
+<circle cx="492.5" cy="299.1" r="3" fill="#2563eb"/>
+<circle cx="629.4" cy="302.2" r="3" fill="#2563eb"/>
+<polyline points="82.0,156.8 116.2,219.1 150.4,232.4 184.6,259.0 218.8,271.8 253.1,276.8 287.3,270.7 321.5,282.8 355.7,285.8 389.9,286.8 424.1,285.2 458.3,286.7 492.5,293.0 526.7,284.1 560.9,296.5 595.2,287.6 629.4,299.2 663.6,296.9 697.8,290.2 732.0,291.4" fill="none" stroke="#ea580c" stroke-width="2.4"/>
+<circle cx="82.0" cy="156.8" r="3" fill="#ea580c"/>
+<circle cx="218.8" cy="271.8" r="3" fill="#ea580c"/>
+<circle cx="355.7" cy="285.8" r="3" fill="#ea580c"/>
+<circle cx="492.5" cy="293.0" r="3" fill="#ea580c"/>
+<circle cx="629.4" cy="299.2" r="3" fill="#ea580c"/>
+<polyline points="82.0,160.9 116.2,239.1 150.4,274.7 184.6,284.1 218.8,295.7 253.1,300.4 287.3,304.1 321.5,305.7 355.7,305.1 389.9,306.2 424.1,306.0 458.3,307.8 492.5,307.1 526.7,306.7 560.9,307.6 595.2,305.1 629.4,305.5 663.6,307.2 697.8,307.4 732.0,306.5" fill="none" stroke="#0891b2" stroke-width="2.4"/>
+<circle cx="82.0" cy="160.9" r="3" fill="#0891b2"/>
+<circle cx="218.8" cy="295.7" r="3" fill="#0891b2"/>
+<circle cx="355.7" cy="305.1" r="3" fill="#0891b2"/>
+<circle cx="492.5" cy="307.1" r="3" fill="#0891b2"/>
+<circle cx="629.4" cy="305.5" r="3" fill="#0891b2"/>
+<line x1="760" y1="86" x2="784" y2="86" stroke="#2563eb" stroke-width="3"/>
+<text x="792" y="90" class="small">adam_baseline</text>
+<line x1="760" y1="114" x2="784" y2="114" stroke="#ea580c" stroke-width="3"/>
+<text x="792" y="118" class="small">adam_lr_0_01</text>
+<line x1="760" y1="142" x2="784" y2="142" stroke="#0891b2" stroke-width="3"/>
+<text x="792" y="146" class="small">adam_lr_decay</text>
+</svg>

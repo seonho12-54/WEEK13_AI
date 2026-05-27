@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" role="img">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.title{font-size:20px;font-weight:700}
+.label{font-size:12px;fill:#4b5563}
+.small{font-size:11px;fill:#6b7280}
+.axis{stroke:#374151;stroke-width:1.2}
+.grid{stroke:#e5e7eb;stroke-width:1}
+</style>
+<text x="82" y="30" class="title">Learning rate comparison - learning rate</text>
+<line x1="82" y1="337" x2="732" y2="337" class="axis"/>
+<line x1="82" y1="62" x2="82" y2="337" class="axis"/>
+<line x1="82" y1="337.0" x2="732" y2="337.0" class="grid"/>
+<text x="74" y="341.0" text-anchor="end" class="small">1.9e-07</text>
+<line x1="82" y1="268.2" x2="732" y2="268.2" class="grid"/>
+<text x="74" y="272.2" text-anchor="end" class="small">3.9e-06</text>
+<line x1="82" y1="199.5" x2="732" y2="199.5" class="grid"/>
+<text x="74" y="203.5" text-anchor="end" class="small">7.8e-05</text>
+<line x1="82" y1="130.8" x2="732" y2="130.8" class="grid"/>
+<text x="74" y="134.8" text-anchor="end" class="small">1.6e-03</text>
+<line x1="82" y1="62.0" x2="732" y2="62.0" class="grid"/>
+<text x="74" y="66.0" text-anchor="end" class="small">3.2e-02</text>
+<text x="82.0" y="359" text-anchor="middle" class="small">1</text>
+<text x="218.8" y="359" text-anchor="middle" class="small">5</text>
+<text x="389.9" y="359" text-anchor="middle" class="small">10</text>
+<text x="560.9" y="359" text-anchor="middle" class="small">15</text>
+<text x="732.0" y="359" text-anchor="middle" class="small">20</text>
+<text x="407.0" y="385" text-anchor="middle" class="label">epoch</text>
+<text x="28" y="199.5" transform="rotate(-90 28 199.5)" text-anchor="middle" class="label">learning rate</text>
+<polyline points="82.0,141.2 116.2,141.2 150.4,141.2 184.6,141.2 218.8,141.2 253.1,141.2 287.3,141.2 321.5,141.2 355.7,141.2 389.9,141.2 424.1,141.2 458.3,141.2 492.5,141.2 526.7,141.2 560.9,141.2 595.2,141.2 629.4,141.2 663.6,141.2 697.8,141.2 732.0,141.2" fill="none" stroke="#2563eb" stroke-width="2.4"/>
+<circle cx="82.0" cy="141.2" r="3" fill="#2563eb"/>
+<circle cx="218.8" cy="141.2" r="3" fill="#2563eb"/>
+<circle cx="355.7" cy="141.2" r="3" fill="#2563eb"/>
+<circle cx="492.5" cy="141.2" r="3" fill="#2563eb"/>
+<circle cx="629.4" cy="141.2" r="3" fill="#2563eb"/>
+<polyline points="82.0,88.6 116.2,88.6 150.4,88.6 184.6,88.6 218.8,88.6 253.1,88.6 287.3,88.6 321.5,88.6 355.7,88.6 389.9,88.6 424.1,88.6 458.3,88.6 492.5,88.6 526.7,88.6 560.9,88.6 595.2,88.6 629.4,88.6 663.6,88.6 697.8,88.6 732.0,88.6" fill="none" stroke="#ea580c" stroke-width="2.4"/>
+<circle cx="82.0" cy="88.6" r="3" fill="#ea580c"/>
+<circle cx="218.8" cy="88.6" r="3" fill="#ea580c"/>
+<circle cx="355.7" cy="88.6" r="3" fill="#ea580c"/>
+<circle cx="492.5" cy="88.6" r="3" fill="#ea580c"/>
+<circle cx="629.4" cy="88.6" r="3" fill="#ea580c"/>
+<polyline points="82.0,88.6 116.2,100.3 150.4,112.0 184.6,123.6 218.8,135.3 253.1,147.0 287.3,158.6 321.5,170.3 355.7,182.0 389.9,193.7 424.1,205.3 458.3,217.0 492.5,228.7 526.7,240.4 560.9,252.0 595.2,263.7 629.4,275.4 663.6,287.0 697.8,298.7 732.0,310.4" fill="none" stroke="#0891b2" stroke-width="2.4"/>
+<circle cx="82.0" cy="88.6" r="3" fill="#0891b2"/>
+<circle cx="218.8" cy="135.3" r="3" fill="#0891b2"/>
+<circle cx="355.7" cy="182.0" r="3" fill="#0891b2"/>
+<circle cx="492.5" cy="228.7" r="3" fill="#0891b2"/>
+<circle cx="629.4" cy="275.4" r="3" fill="#0891b2"/>
+<line x1="760" y1="86" x2="784" y2="86" stroke="#2563eb" stroke-width="3"/>
+<text x="792" y="90" class="small">adam_baseline</text>
+<line x1="760" y1="114" x2="784" y2="114" stroke="#ea580c" stroke-width="3"/>
+<text x="792" y="118" class="small">adam_lr_0_01</text>
+<line x1="760" y1="142" x2="784" y2="142" stroke="#0891b2" stroke-width="3"/>
+<text x="792" y="146" class="small">adam_lr_decay</text>
+</svg>
